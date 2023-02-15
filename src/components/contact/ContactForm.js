@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> Street # Street Name, City State 00000 </p>
+            <p><BsFillPinMapFill /> 37112 Maple Street, Fremont CA 95841</p>
     </div>
 
 </div>
