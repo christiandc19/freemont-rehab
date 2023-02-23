@@ -32,9 +32,15 @@ const Hero = () => {
                     </Link>
                     </div>
                     <br />
+
                     <Fade bottom>
-                        <p>Find your happiness and learn to put it first.</p>
+                    <div className="target">
+                        <div className="expanding">
+                            <p>Find your happiness & learn to put it first</p>
+                        </div>
+                    </div>
                     </Fade>
+
                 </div>
             </div>
         </div>
