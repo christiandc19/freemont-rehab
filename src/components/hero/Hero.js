@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-// import BgVideo from '../../assets/hero-vbg.mp4'
 
-import waves from '../../assets/waves.svg'
+import Wave3 from '../../assets/waves3.svg'
 
 
 
@@ -13,18 +12,16 @@ const Hero = () => {
     return (
 <>        
 
-
-
         <div className='hero'>
 
         <div className='hero-divider'>
-                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
+                <img src={Wave3} loading="lazy" repeat-x alt='wave divider'/>
             </div>
 
 
             <div className="hero-container">
                 <div className="content">
-                        <h1 className="animate-charcter">FREEMONT<br/> REHAB</h1>
+                        <h1 className="animate-charcter">FREEMONT REHAB</h1>
                     <Fade left>
                         <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
                     </Fade>
@@ -41,8 +38,6 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-
-
 </>
 
     )
