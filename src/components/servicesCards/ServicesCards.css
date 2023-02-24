@@ -172,9 +172,6 @@
     transition: 0.5s;
   }
 
-
-
-
 .drop .content .drop-btn p:hover {
  color: white;
   cursor: pointer;
@@ -200,16 +197,29 @@
 }
 
 .cards2-header {
+    display: flex;
+    flex-wrap: wrap;
     width: auto;
-    text-align: justify;
-    padding: 2rem 0 4rem 0;
+    justify-content: center;
+    padding: 2rem 1rem 4rem 1rem;
+    gap: 2rem;
+}
+
+.cards2-header .header-left {
+  width: 500px;
+  text-align: center;
+}
+
+.cards2-header .header-right {
+  width: 500px;
+  text-align: justify;
 }
 
 .cards2-header h1 {
     font-size: 1.5rem;
     text-align: center;
-      margin: 1rem auto;
-      font-family: 'Montserrat', sans-serif;
+    margin: 1rem auto .2rem 0;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .cards2-header p {

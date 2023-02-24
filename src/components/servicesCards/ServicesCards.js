@@ -1,5 +1,5 @@
 import React from 'react'
-import './ServicesCards2.css'
+import './ServicesCards.css'
 import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -21,9 +21,15 @@ const ServicesCards2 = () => {
 
 
 <div className="cards2-header container">
+                <div className='header-left'>
                 <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At Freemont Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
-            </div>
+                <h3>The Best Possible Care. The Best Possible People.</h3>
+                </div>
+
+                <div className='header-right'>
+                  <p>At Freemont Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                </div>
+</div>
 
 <div className="ServicesCards2-container">
 
