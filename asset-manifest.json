@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/freemont-rehab/static/css/main.fbf2b5d2.css",
-    "main.js": "/freemont-rehab/static/js/main.4ebafe0e.js",
+    "main.css": "/freemont-rehab/static/css/main.11ff178d.css",
+    "main.js": "/freemont-rehab/static/js/main.4c43d25d.js",
     "static/media/home-call.png": "/freemont-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
-    "static/media/footer-bg.jpg": "/freemont-rehab/static/media/footer-bg.14325a6fe838ebcaafe0.jpg",
+    "static/media/covid.png": "/freemont-rehab/static/media/covid.d0b09235677f896813e5.png",
     "static/media/whatwedo-home.jpg": "/freemont-rehab/static/media/whatwedo-home.976933f52481b21e3bd3.jpg",
     "static/media/menu-bg-treatment.jpg": "/freemont-rehab/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
     "static/media/menu-bg-about.jpg": "/freemont-rehab/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
@@ -24,6 +24,7 @@
     "static/media/clinic.jpg": "/freemont-rehab/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/nav-logo.png": "/freemont-rehab/static/media/nav-logo.522cbcbab8c603fdc9d9.png",
     "static/media/card2.jpg": "/freemont-rehab/static/media/card2.68fad768227caf1d1564.jpg",
+    "static/media/footer-bg.jpg": "/freemont-rehab/static/media/footer-bg.398080ea0f779a429ae9.jpg",
     "static/media/card1.jpg": "/freemont-rehab/static/media/card1.8a8b301b414fc29b4840.jpg",
     "static/media/card3.jpg": "/freemont-rehab/static/media/card3.cb6d41421c9c28351d8f.jpg",
     "static/media/IopSection1.jpg": "/freemont-rehab/static/media/IopSection1.2c6d9291efd554cf9cd8.jpg",
@@ -40,11 +41,11 @@
     "static/media/waves.svg": "/freemont-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "static/media/waves3.svg": "/freemont-rehab/static/media/waves3.00fb16e17604f31b4e241ee20c89dfde.svg",
     "static/media/waves4.svg": "/freemont-rehab/static/media/waves4.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.fbf2b5d2.css.map": "/freemont-rehab/static/css/main.fbf2b5d2.css.map",
-    "main.4ebafe0e.js.map": "/freemont-rehab/static/js/main.4ebafe0e.js.map"
+    "main.11ff178d.css.map": "/freemont-rehab/static/css/main.11ff178d.css.map",
+    "main.4c43d25d.js.map": "/freemont-rehab/static/js/main.4c43d25d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbf2b5d2.css",
-    "static/js/main.4ebafe0e.js"
+    "static/css/main.11ff178d.css",
+    "static/js/main.4c43d25d.js"
   ]
 }
