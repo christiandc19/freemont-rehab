@@ -92,6 +92,12 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
+  .hero {
+    height: 80vh;
+    position: relative;
+
+  }
+
 
     .hero h2 {
         font-size: 18px;
@@ -106,12 +112,20 @@
     }
 
     .hero .hero-container {
-        top: 30%;
+        top: 20%;
         left: 0%;
         width: auto;
     }
 
 }
+
+
+
+
+
+
+
+
 
 
 /* TYPE EFFECT */

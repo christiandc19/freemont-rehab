@@ -44,11 +44,15 @@
     margin: 1rem auto;
 }
 
-.team {
-    justify-content: center;
-    text-align: center;
+.call {
+    width: 500px;
+    margin: auto;
+    margin: 1rem  auto -3rem auto;
+    padding: 1rem;
+}
+
+.call img {
     width: 100%;
-    margin-bottom: -2rem;
 }
 
 @media  screen and (max-width:940px) {
@@ -61,11 +65,17 @@
     .InsuranceSection-container p {
         font-size: 14px;
     }
+}
 
-    .team img {
+@media  screen and (max-width:500px) {
+
+    .call {
         width: 350px;
     }
-
+    
+    .call img {
+        width: 100%;
+    }
 
 }
 
