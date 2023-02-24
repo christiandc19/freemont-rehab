@@ -27,7 +27,7 @@ const ServicesCards2 = () => {
                 </div>
 
                 <div className='header-right'>
-                  <p>At Freemont Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                  <p>At <span>Freemont Rehab Treatment Center,</span>  clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
                 </div>
 </div>
 

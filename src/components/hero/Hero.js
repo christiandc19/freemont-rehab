@@ -36,7 +36,7 @@ const Hero = () => {
                     <Fade bottom>
                     <div className="target">
                         <div className="expanding">
-                            <p>Find your happiness & learn to put it first</p>
+                            <p>Find your happiness and learn to put it first</p>
                         </div>
                     </div>
                     </Fade>

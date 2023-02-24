@@ -212,8 +212,13 @@
 
 .cards2-header .header-right {
   width: 500px;
-  text-align: justify;
 }
+
+.cards2-header .header-right span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 
 .cards2-header h1 {
     font-size: 1.5rem;
@@ -224,6 +229,7 @@
   
   .cards2-header p {
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
   }
 
 
@@ -248,3 +254,8 @@
 }
 
 
+@media screen and (max-width:940px) {
+  .cards2-header .header-right{
+    width: 800px;
+  }
+}
