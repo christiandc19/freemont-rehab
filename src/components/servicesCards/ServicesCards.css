@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .cards2main-container {
     background: #eff0f4;
     min-height: 80vh;
@@ -208,6 +210,12 @@
 .cards2-header .header-left {
   width: 500px;
   text-align: center;
+}
+
+.cards2-header .header-left h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 18px;
+  color: rgb(88, 87, 87);
 }
 
 .cards2-header .header-right {

@@ -6,7 +6,7 @@
     height: 90px;
     position: absolute;
     z-index: 10;
-    background: rgb(34, 34, 34);
+    background: rgba(1, 44, 10, 0.856);
 }
 
 .navbar .container {

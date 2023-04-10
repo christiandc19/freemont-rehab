@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Kaushan+Script&display=swap');
 
 .hero {
     width: 100%;
@@ -69,8 +69,8 @@
     font-size: 5rem;
     text-align: left;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Exo 2', sans-serif;
+  }
 
 .hero h2 {
     font-size: 1.5rem;
@@ -101,14 +101,24 @@
 
     .hero h2 {
         font-size: 18px;
+        text-align: center;
     }
 
     .hero h1 {
     font-size: 3rem;
+    text-align: center;
+
     }
 
     .hero p {
         font-size: 12px;
+        text-align: center;
+    }
+
+    .hero .hero-container {
+      text-align: center;
+      left: 0;
+
     }
 
     /* .hero .hero-container {

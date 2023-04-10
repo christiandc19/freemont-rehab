@@ -23,7 +23,7 @@ const ServicesCards2 = () => {
 <div className="cards2-header container">
                 <div className='header-left'>
                 <h1>WE OFFER VARIOUS SERVICES </h1>
-                <h3>The Best Possible Care. The Best Possible People.</h3>
+                <h3>The best possible care. The best possible people.</h3>
                 </div>
 
                 <div className='header-right'>
