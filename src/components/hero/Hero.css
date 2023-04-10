@@ -14,13 +14,13 @@
   .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center top/cover;
+    background: url('../../assets/hero-bg-2.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
 
-
+/* 
   .animate-charcter
 {
    text-transform: uppercase;
@@ -48,12 +48,12 @@
   to {
     background-position: 200% center;
   }
-}
+} */
 
 
 
 .hero .hero-container {
-    top: 20%;
+    top: 30%;
     left: 8%;
     position: absolute;
     align-items: center;
@@ -111,11 +111,11 @@
         font-size: 12px;
     }
 
-    .hero .hero-container {
+    /* .hero .hero-container {
         top: 20%;
         left: 0%;
         width: auto;
-    }
+    } */
 
 }
 

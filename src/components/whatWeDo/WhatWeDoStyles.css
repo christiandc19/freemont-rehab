@@ -35,7 +35,7 @@
 }
 
 .wrap .header {
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -73,16 +73,20 @@
         font-size: 2rem;
     }
 
-.left button {
+    .left button {
     margin: 1rem auto;
-}
+    }
 
-.box-right {
+    .box-right {
     display: none;
-}
+    }
 
-.box-right2 {
+    .box-right2 {
     display: block;
-}
+    }
+
+    .wrap .header {
+        text-align: center;
+    }
 
 }
