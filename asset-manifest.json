@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/freemont-rehab/static/css/main.0de6435c.css",
-    "main.js": "/freemont-rehab/static/js/main.5f7b26a6.js",
+    "main.js": "/freemont-rehab/static/js/main.25f8bb4e.js",
     "static/media/home-call.png": "/freemont-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
     "static/media/covid.png": "/freemont-rehab/static/media/covid.d0b09235677f896813e5.png",
-    "static/media/whatwedo-home.jpg": "/freemont-rehab/static/media/whatwedo-home.976933f52481b21e3bd3.jpg",
+    "static/media/whatwedo-home-2.jpg": "/freemont-rehab/static/media/whatwedo-home-2.f485e4a62d0265214690.jpg",
     "static/media/menu-bg-treatment.jpg": "/freemont-rehab/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
     "static/media/menu-bg-about.jpg": "/freemont-rehab/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
     "static/media/whatwedo2.png": "/freemont-rehab/static/media/whatwedo2.960c76ca1d89af0acc4c.png",
@@ -42,10 +42,10 @@
     "static/media/waves3.svg": "/freemont-rehab/static/media/waves3.00fb16e17604f31b4e241ee20c89dfde.svg",
     "static/media/waves4.svg": "/freemont-rehab/static/media/waves4.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "main.0de6435c.css.map": "/freemont-rehab/static/css/main.0de6435c.css.map",
-    "main.5f7b26a6.js.map": "/freemont-rehab/static/js/main.5f7b26a6.js.map"
+    "main.25f8bb4e.js.map": "/freemont-rehab/static/js/main.25f8bb4e.js.map"
   },
   "entrypoints": [
     "static/css/main.0de6435c.css",
-    "static/js/main.5f7b26a6.js"
+    "static/js/main.25f8bb4e.js"
   ]
 }
