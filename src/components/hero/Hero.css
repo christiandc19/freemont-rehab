@@ -8,57 +8,42 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(6, 24, 1, 0.411);
+    background: #01221F;
   }
   
   .hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/hero-bg-2.jpg') no-repeat center top/cover;
+    /* background: url('../../assets/hero-bg-2.jpg') no-repeat center top/cover; */
     height: 100%;
     width: 100%;
     z-index: -1;
   }
 
-/* 
-  .animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #ffffff 0%,
-    #0e690b 29%,
-    #ffffff 67%,
-    #f7f7f7 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 5s linear infinite;
-  display: inline-block;
-      font-size: 190px;
+
+.hero .hero-container .content{
+  top: 13%;
+  position: relative;
+    width: 90vw;
+    height: 90vh;
+    z-index: 1;
+    background-color: #000000;
 }
 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-} */
+.hero .hero-container .content img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    opacity: 0.6;
+}
 
-
-
-.hero .hero-container {
-    top: 30%;
-    left: 8%;
-    position: absolute;
-    align-items: center;
-    text-align: left;
-    margin: 1rem;
+.hero-caption {
+  position: absolute;
+  z-index: 999999;
+  top: 30%;
+  width: 100%;
+  left: 5%;
+  z-index: 6;
 }
 
 .hero-logo {
@@ -68,7 +53,7 @@
 .hero h1 {
     font-size: 5rem;
     text-align: left;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Exo 2', sans-serif;
   }
 
@@ -93,342 +78,57 @@
 
 @media screen and (max-width:940px) {
   .hero {
-    height: 80vh;
-    position: relative;
-
+    height: 70vh;
   }
 
+  .hero .hero-container .content {
+      height: 70vh;
+      top: 18%;
+  }
 
-    .hero h2 {
-        font-size: 18px;
-        text-align: center;
-    }
+  .hero h2 {
+      font-size: 18px;
+      text-align: center;
+  }
 
-    .hero h1 {
-    font-size: 3rem;
-    text-align: center;
+  .hero h1 {
+  font-size: 3rem;
+  text-align: center;
+  }
 
-    }
+  .hero-caption {
+    position: absolute;
+    z-index: 999999;
+    top: 30%;
+    width: 100%;
+    left: 0;
+  }
 
-    .hero p {
+  .hero p {
         font-size: 12px;
         text-align: center;
     }
 
-    .hero .hero-container {
-      text-align: center;
-      left: 0;
+  .hero .hero-container {
+  text-align: center;
+  left: 0;
+  }
 
-    }
+}
 
-    /* .hero .hero-container {
-        top: 20%;
-        left: 0%;
-        width: auto;
-    } */
+
+@media screen and (max-width:700px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .hero .hero-container .content {
+      height: 45vh;
+      top: 25%;
+
+  }
 
 }
 
 
 
-
-
-
-
-
-
-
-/* TYPE EFFECT */
-
-.target p{
-  position: relative;
-  font-size: 14px;
-  color: white;
-  text-transform: uppercase;
-}
-
-
-.expanding {
-  position: absolute;
-  overflow: hidden;
-  width: 0;
-  height: 1em;
-  word-break: break-all;
-  animation-name: blink, expand-width;
-  animation-duration: 1s, 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: step-start;
-}
-
-@keyframes blink {
-  0% {
-    border-right: 1px solid transparent;
-  }
-  50% {
-    border-right: 1px solid black;
-  }
-  100% {
-    border-right: 1px solid transparent;
-  }
-}
-
-@keyframes expand-width {
-  0% {
-    width: 0ch;
-  }
-  0.975609756097561% {
-    width: 0.5ch;
-  }
-  1.951219512195122% {
-    width: 1ch;
-  }
-  2.926829268292683% {
-    width: 1.5ch;
-  }
-  3.902439024390244% {
-    width: 2ch;
-  }
-  4.878048780487805% {
-    width: 2.5ch;
-  }
-  5.853658536585366% {
-    width: 3ch;
-  }
-  6.829268292682927% {
-    width: 3.5ch;
-  }
-  7.804878048780488% {
-    width: 4ch;
-  }
-  8.78048780487805% {
-    width: 4.5ch;
-  }
-  9.75609756097561% {
-    width: 5ch;
-  }
-  10.73170731707317% {
-    width: 5.5ch;
-  }
-  11.707317073170731% {
-    width: 6ch;
-  }
-  12.682926829268293% {
-    width: 6.5ch;
-  }
-  13.658536585365853% {
-    width: 7ch;
-  }
-  14.634146341463413% {
-    width: 7.5ch;
-  }
-  15.609756097560975% {
-    width: 8ch;
-  }
-  16.585365853658537% {
-    width: 8.5ch;
-  }
-  17.5609756097561% {
-    width: 9ch;
-  }
-  18.53658536585366% {
-    width: 9.5ch;
-  }
-  19.512195121951223% {
-    width: 10ch;
-  }
-  20.487804878048784% {
-    width: 10.5ch;
-  }
-  21.463414634146346% {
-    width: 11ch;
-  }
-  22.439024390243908% {
-    width: 11.5ch;
-  }
-  23.41463414634147% {
-    width: 12ch;
-  }
-  24.390243902439032% {
-    width: 12.5ch;
-  }
-  25.365853658536594% {
-    width: 13ch;
-  }
-  26.341463414634156% {
-    width: 13.5ch;
-  }
-  27.317073170731717% {
-    width: 14ch;
-  }
-  28.29268292682928% {
-    width: 14.5ch;
-  }
-  29.26829268292684% {
-    width: 15ch;
-  }
-  30.243902439024403% {
-    width: 15.5ch;
-  }
-  31.219512195121965% {
-    width: 16ch;
-  }
-  32.19512195121953% {
-    width: 16.5ch;
-  }
-  33.17073170731709% {
-    width: 17ch;
-  }
-  34.14634146341465% {
-    width: 17.5ch;
-  }
-  35.12195121951221% {
-    width: 18ch;
-  }
-  36.097560975609774% {
-    width: 18.5ch;
-  }
-  37.073170731707336% {
-    width: 19ch;
-  }
-  38.0487804878049% {
-    width: 19.5ch;
-  }
-  39.02439024390246% {
-    width: 20ch;
-  }
-  40.00000000000002% {
-    width: 20.5ch;
-  }
-  40.97560975609758% {
-    width: 21ch;
-  }
-  41.951219512195145% {
-    width: 21.5ch;
-  }
-  42.92682926829271% {
-    width: 22ch;
-  }
-  43.90243902439027% {
-    width: 22.5ch;
-  }
-  44.87804878048783% {
-    width: 23ch;
-  }
-  45.85365853658539% {
-    width: 23.5ch;
-  }
-  46.829268292682954% {
-    width: 24ch;
-  }
-  47.804878048780516% {
-    width: 24.5ch;
-  }
-  48.78048780487808% {
-    width: 25ch;
-  }
-  49.75609756097564% {
-    width: 25.5ch;
-  }
-  50.7317073170732% {
-    width: 26ch;
-  }
-  51.70731707317076% {
-    width: 26.5ch;
-  }
-  52.682926829268325% {
-    width: 27ch;
-  }
-  53.65853658536589% {
-    width: 27.5ch;
-  }
-  54.63414634146345% {
-    width: 28ch;
-  }
-  55.60975609756101% {
-    width: 28.5ch;
-  }
-  56.58536585365857% {
-    width: 29ch;
-  }
-  57.560975609756134% {
-    width: 29.5ch;
-  }
-  58.536585365853696% {
-    width: 30ch;
-  }
-  59.51219512195126% {
-    width: 30.5ch;
-  }
-  60.48780487804882% {
-    width: 31ch;
-  }
-  61.46341463414638% {
-    width: 31.5ch;
-  }
-  62.439024390243944% {
-    width: 32ch;
-  }
-  63.414634146341506% {
-    width: 32.5ch;
-  }
-  64.39024390243907% {
-    width: 33ch;
-  }
-  65.36585365853662% {
-    width: 33.5ch;
-  }
-  66.34146341463419% {
-    width: 34ch;
-  }
-  67.31707317073175% {
-    width: 34.5ch;
-  }
-  68.29268292682931% {
-    width: 35ch;
-  }
-  69.26829268292687% {
-    width: 35.5ch;
-  }
-  70.24390243902444% {
-    width: 36ch;
-  }
-  71.219512195122% {
-    width: 36.5ch;
-  }
-  72.19512195121956% {
-    width: 37ch;
-  }
-  73.17073170731712% {
-    width: 37.5ch;
-  }
-  74.14634146341469% {
-    width: 38ch;
-  }
-  75.12195121951224% {
-    width: 38.5ch;
-  }
-  76.09756097560981% {
-    width: 39ch;
-  }
-  77.07317073170736% {
-    width: 39.5ch;
-  }
-  78.04878048780493% {
-    width: 40ch;
-  }
-  79.02439024390249% {
-    width: 40.5ch;
-  }
-  80.00000000000006% {
-    width: 41ch;
-  }
-  80.97560975609761% {
-    width: 41.5ch;
-  }
-  81.9512195122% {
-    width: 42ch;
-  }
-  100% {
-    width: 42ch;
-  }
-}

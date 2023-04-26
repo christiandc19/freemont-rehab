@@ -1,19 +1,26 @@
 import React from 'react'
 import InsuranceSection from '../insurance/InsuranceSection';
-import WhatWeDo from '../whatWeDo/WhatWeDo';
-import ContactForm from '../contact/ContactForm';
-import Cards2 from '../servicesCards/ServicesCards';
-import COVID from '../covidCompliance/Covid'
+// import WhatWeDo from '../whatWeDo/WhatWeDo';
+// import ContactForm from '../contact/ContactForm';
+// import Cards2 from '../servicesCards/ServicesCards';
+// import COVID from '../covidCompliance/Covid'
+import HomeSection1 from '../homeSection1/HomeSection1';
+import HomeSection2 from '../homeSection2/HomeSection2';
+import HomeSection3 from '../homeSection3/HomeSection3';
 
 
 const home = () => {
   return (
     <>
-    <Cards2 />
-    <WhatWeDo />
+    <HomeSection1 />
+    <HomeSection2 />
+    <HomeSection3 />
     <InsuranceSection />
+
+    {/* <Cards2 />
+    <WhatWeDo />
     <ContactForm />
-    <COVID />
+    <COVID /> */}
     </>
   )
 }

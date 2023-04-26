@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: rgba(9, 86, 109, 0.945);
-  --primary-dark: #0d2154;
-  --secondary-color: #46a828;
+  --primary-color: #01221F;
+  --primary-dark: #022204;
+  --secondary-color: #0f746b;
 
 }
 
@@ -77,14 +77,14 @@ button {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor:pointer;
 
 }
 
 button:hover {
-  background-color: #4ad15c;
-  border: 1px solid #4ad15c;
+  background-color: #0c4b14;
+  border: 1px solid #0c4b14;
 }
 
 span {
