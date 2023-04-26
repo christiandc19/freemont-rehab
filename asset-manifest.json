@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/freemont-rehab/static/css/main.0b244ab6.css",
-    "main.js": "/freemont-rehab/static/js/main.d3cf8cb5.js",
-    "static/media/section3-image.jpg": "/freemont-rehab/static/media/section3-image.0817673c5156d2bc6c9b.jpg",
-    "static/media/section2-image.jpg": "/freemont-rehab/static/media/section2-image.31187439dcf774b38860.jpg",
+    "main.css": "/freemont-rehab/static/css/main.56c780f9.css",
+    "main.js": "/freemont-rehab/static/js/main.a7d100cd.js",
+    "static/media/activities.png": "/freemont-rehab/static/media/activities.1d11ce5f82f757015407.png",
+    "static/media/section4-image.jpg": "/freemont-rehab/static/media/section4-image.72d8353d8b6bb8e3241e.jpg",
+    "static/media/method-bg.jpg": "/freemont-rehab/static/media/method-bg.c9ce2b55956806b117d4.jpg",
     "static/media/home-call.png": "/freemont-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
-    "static/media/hero-bg.jpg": "/freemont-rehab/static/media/hero-bg.e38721300456e77c2e46.jpg",
-    "static/media/menu-bg-treatment.jpg": "/freemont-rehab/static/media/menu-bg-treatment.140ade98e1c257d84734.jpg",
+    "static/media/section5-image.jpg": "/freemont-rehab/static/media/section5-image.cad13e29e52124904a32.jpg",
+    "static/media/hero-bg-1.jpg": "/freemont-rehab/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
+    "static/media/hero-bg-min.jpg": "/freemont-rehab/static/media/hero-bg-min.f00748d058b55385043d.jpg",
+    "static/media/section3-image-min.jpg": "/freemont-rehab/static/media/section3-image-min.e87384b62091eb9bdcc6.jpg",
+    "static/media/section2-image-min.jpg": "/freemont-rehab/static/media/section2-image-min.f7cc3aa9f56ab4562797.jpg",
+    "static/media/mental-health-submenu-bg.jpg": "/freemont-rehab/static/media/mental-health-submenu-bg.fdf10b29e0c4f1459ea0.jpg",
     "static/media/menu-bg-about.jpg": "/freemont-rehab/static/media/menu-bg-about.69cb35ce48fbdeb1176b.jpg",
     "static/media/mh-submenu-bg.jpg": "/freemont-rehab/static/media/mh-submenu-bg.b41155bca1af6f12a7f7.jpg",
     "static/media/sa-submenu-bg.jpg": "/freemont-rehab/static/media/sa-submenu-bg.5d1614d4cb6f11156dd1.jpg",
@@ -19,8 +24,11 @@
     "static/media/treatment-2.jpg": "/freemont-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
     "static/media/staff.jpg": "/freemont-rehab/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/submenu-bg.jpg": "/freemont-rehab/static/media/submenu-bg.ebb4f6c7d8bd77ad609a.jpg",
+    "static/media/mh-submenu-bg-min.jpg": "/freemont-rehab/static/media/mh-submenu-bg-min.8463132319d5ea715676.jpg",
     "static/media/therapy.jpg": "/freemont-rehab/static/media/therapy.dad0142aa6ca32c0ca9b.jpg",
+    "static/media/sub-card-bg-min.jpg": "/freemont-rehab/static/media/sub-card-bg-min.cde85832ede3adfd5866.jpg",
     "static/media/nav-logo.png": "/freemont-rehab/static/media/nav-logo.604c79396d7669e34fc0.png",
+    "static/media/addiction-submenu-bg-min.jpg": "/freemont-rehab/static/media/addiction-submenu-bg-min.9206cf96c0f36dbd4abd.jpg",
     "static/media/clinic.jpg": "/freemont-rehab/static/media/clinic.df2089786a9615989f92.jpg",
     "static/media/card2.jpg": "/freemont-rehab/static/media/card2.68fad768227caf1d1564.jpg",
     "static/media/footer-bg.jpg": "/freemont-rehab/static/media/footer-bg.398080ea0f779a429ae9.jpg",
@@ -38,11 +46,11 @@
     "static/media/bluecross.png": "/freemont-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/freemont-rehab/index.html",
     "static/media/waves.svg": "/freemont-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.0b244ab6.css.map": "/freemont-rehab/static/css/main.0b244ab6.css.map",
-    "main.d3cf8cb5.js.map": "/freemont-rehab/static/js/main.d3cf8cb5.js.map"
+    "main.56c780f9.css.map": "/freemont-rehab/static/css/main.56c780f9.css.map",
+    "main.a7d100cd.js.map": "/freemont-rehab/static/js/main.a7d100cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b244ab6.css",
-    "static/js/main.d3cf8cb5.js"
+    "static/css/main.56c780f9.css",
+    "static/js/main.a7d100cd.js"
   ]
 }
