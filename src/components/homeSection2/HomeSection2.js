@@ -2,7 +2,7 @@ import React from 'react'
 import './HomeSection2.css'
 import { BsCheckLg } from 'react-icons/bs';
 
-import HomeSection2Image from '../../assets/section2-image.jpg'
+import HomeSection2Image from '../../assets/section2-image-min.jpg'
 
 const HomeSection2 = () => {
   return (

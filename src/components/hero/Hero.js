@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
-import HeroImage from '../../assets/hero-bg.jpg'
+import HeroImage from '../../assets/hero-bg-min.jpg'
 
 import './Hero.css'
 

@@ -12,7 +12,7 @@
   .homeSection3:before {
     content: '';
     position: absolute;
-    background: url('../../assets/section3-image.jpg') no-repeat center top/cover;
+    background: url('../../assets/section3-image-min.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
