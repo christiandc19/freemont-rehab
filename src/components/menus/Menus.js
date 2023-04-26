@@ -17,8 +17,8 @@ const Menus = () => {
     <>
 
 <div className="mh-cards-header container">
-                <h1>CONTRA COSTA REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
-                <p>At Contra Costa Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <h1>FREMONT REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
+                <p>At Fremont Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 
 <div class="mh-card-wrap">
@@ -45,7 +45,7 @@ const Menus = () => {
 </Fade>
   <div class="mh-text">
   <h1>Intensive Outpatient Program</h1>
-  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Contra Costa.</p>
+  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Fremont Rehab.</p>
   <div class="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health-iop">
@@ -79,197 +79,185 @@ const Menus = () => {
 
 
 
-
 {/* Mental Health Thumbnails */}
 
 
 
-          
-<div class="sa-card-wrap container">
+<div class="mh-thumbnail-wrap container">
 
-
- <div class="sa-tile"> 
-  <Fade left>
+ <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Depression</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>Depression</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/depression">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Anxiety</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>ANXIETY</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/anxiety">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Panic Dsorder</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>PANIC DISORDER</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/panic-disorder">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>ASD</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>STRESS DISORDER</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/acute-stress-disorder">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>ADHD</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/adhd">
-            <button>Learn More</button>
-        </Link>
-    </LinkRoll>
-    </div>
-  </div>
- </div>
-
-
- <div class="sa-tile"> 
-  <Fade left>
-  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Anger Disorder</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>ANGER DISORDER</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/anger-disorder">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Bipolar</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-        <Link to="/bipolar-disorder">
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>ADHD</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/adhd">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>PTSD</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>PTSD</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/ptsd">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Schizoaffective</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>BIPOLAR</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+        <Link to="/bipolar-disorder">
+            <button>Learn More</button>
+        </Link>
+      </LinkRoll>
+    </div>
+  </div>
+
+  <div class="mh-thumbnails"> 
+  <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>SCHIZOAFFECTIVE</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/schizoaffective">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
- </div>
 
- <div class="sa-tile"> 
-  <Fade left>
+  <div class="mh-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-  </Fade>
-  <div class="sa-text">
-  <h5>MENTAL HEALTH TREATMENT​</h5>
-  <h1>Schizophrenia</h1>
-    
-    <div class="sa-animate-text">
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+    <div class="centered">
+      <Fade left>
+      <h5>MENTAL HEALTH TREATMENT​</h5>
+      </Fade>
+      <Fade right>
+      <h1>SCHIZOPHRENIA</h1>
+      </Fade>
+      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/schizophrenia">
             <button>Learn More</button>
         </Link>
-    </LinkRoll>
+      </LinkRoll>
     </div>
   </div>
+
+
  </div>
-
-
+ <div>
 </div>
 
 

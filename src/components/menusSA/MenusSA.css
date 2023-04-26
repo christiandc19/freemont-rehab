@@ -125,3 +125,69 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
+
+
+/* Mental Health Thumbnails */
+
+.sa-thumbnail-wrap
+{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:space-around;
+  padding: 3rem 0;
+}
+
+.sa-thumbnails
+{
+  width:220px;
+  height:200px;
+  margin:10px;
+  border-radius: 10px;
+
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.sa-thumbnails img
+{
+  height:100%;
+  width:100%;
+  border-radius: 10px;
+  opacity: 0.2;
+}
+
+.centered h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1rem 0;
+  color: rgb(226, 94, 18);
+  letter-spacing: 2px;
+}
+
+.centered button {
+  padding: .5rem 1.5rem;
+  background-color: rgba(175, 86, 35, 0.918);
+  color: black;
+  font-size: 12px;
+}
+
+.centered button:hover {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  border: none;
+}
+
+.centered {
+  width: 100%;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,8 +1,7 @@
 import React from 'react'
 import './HomeSection4.css'
-import { BsCheckLg } from 'react-icons/bs';
 
-import HomeSection4Image from '../../assets/section4-image.jpg'
+import HomeSection4Image from '../../assets/section4-image-min.jpg'
 
 const HomeSection4 = () => {
   return (
@@ -10,10 +9,10 @@ const HomeSection4 = () => {
       <div className='homeSection4 '>
         <div className='homeSection4-content'>
 
-            <div className='homeSection4-right'>
+            <div className='homeSection4-left'>
                 <h1>WHAT WE DO</h1>
                 {/* <h2>Quality Care from Quality Experts.</h2> */}
-                <p>At Contra Costa, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br /> You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.
+                <p>At Fremont Rehab, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br /> You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.
                 </p> <br />
 
                 <h1>TREATMENT</h1>
@@ -21,7 +20,7 @@ const HomeSection4 = () => {
                 </p>
             </div>
 
-            <div className='homeSection4-left'>
+            <div className='homeSection4-right'>
                 <img src={HomeSection4Image} loading="lazy" alt='psychologist'/>
             </div>
 
