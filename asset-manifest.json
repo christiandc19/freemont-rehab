@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fremont-rehab/static/css/main.8bb6ae04.css",
-    "main.js": "/fremont-rehab/static/js/main.9b0bda6a.js",
+    "main.js": "/fremont-rehab/static/js/main.f1b46efc.js",
     "static/media/home-call.png": "/fremont-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
     "static/media/activities-min.png": "/fremont-rehab/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/fremont-rehab/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -43,10 +43,10 @@
     "index.html": "/fremont-rehab/index.html",
     "static/media/waves.svg": "/fremont-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "main.8bb6ae04.css.map": "/fremont-rehab/static/css/main.8bb6ae04.css.map",
-    "main.9b0bda6a.js.map": "/fremont-rehab/static/js/main.9b0bda6a.js.map"
+    "main.f1b46efc.js.map": "/fremont-rehab/static/js/main.f1b46efc.js.map"
   },
   "entrypoints": [
     "static/css/main.8bb6ae04.css",
-    "static/js/main.9b0bda6a.js"
+    "static/js/main.f1b46efc.js"
   ]
 }
