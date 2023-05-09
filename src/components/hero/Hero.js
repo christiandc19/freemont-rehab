@@ -15,7 +15,7 @@ const Hero = () => {
                     <img src={HeroImage} loading="lazy" alt='psychologist'/>
 
                 <div className='hero-caption'>
-                        <h1 className="animate-charcter">FREEMONT REHAB</h1>
+                        <h1 className="animate-charcter">FREMONT REHAB</h1>
                     <Fade left>
                         <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
                     </Fade>

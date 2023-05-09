@@ -1,6 +1,6 @@
 {
-  "homepage": "https://christiandc19.github.io/freemont-rehab/",
-  "name": "freemont-rehab",
+  "homepage": "https://christiandc19.github.io/fremont-rehab/",
+  "name": "fremont-rehab",
   "version": "0.1.0",
   "private": true,
   "proxy":"http://localhost:3001",

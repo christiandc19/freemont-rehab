@@ -1,27 +1,25 @@
-import React from 'react'
+import React from "react";
 
-import './Covid.css'
+import "./Covid.css";
 
-import CovidImg from '../../assets/covid.png'
+import CovidImg from "../../assets/covid.png";
 
 const covid = () => {
   return (
     <>
-      <div className='covid-container container'>
-        <div className='covid-content'>
+      <div className="covid-container container">
+        <div className="covid-content">
+          <div className="covidImgContainer">
+            <img src={CovidImg} alt="covid 19 virus " />
+          </div>
 
-            <div className='covidImgContainer'>
-                <img src={CovidImg} alt='covid 19 virus ' />
-            </div>
-
-            <div className='covid-description'>
-                <h1>Freemont Rehab Treatment Center is Covid 19 Compliant</h1>
-            </div>
-            
+          <div className="covid-description">
+            <h1>Fremont Rehab Treatment Center is Covid 19 Compliant</h1>
+          </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default covid
+export default covid;
