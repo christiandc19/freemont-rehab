@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/freemont-rehab/static/css/main.664c86a5.css",
-    "main.js": "/freemont-rehab/static/js/main.ea1898a2.js",
+    "main.css": "/freemont-rehab/static/css/main.f7b497e0.css",
+    "main.js": "/freemont-rehab/static/js/main.0b0490f8.js",
     "static/media/home-call.png": "/freemont-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
     "static/media/activities-min.png": "/freemont-rehab/static/media/activities-min.6296b11206d33e19d904.png",
+    "static/media/Bg-Video.mp4": "/freemont-rehab/static/media/Bg-Video.4d855b76a737b1e6a8a4.mp4",
     "static/media/hero-bg-1.jpg": "/freemont-rehab/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
-    "static/media/hero-bg-min.jpg": "/freemont-rehab/static/media/hero-bg-min.f00748d058b55385043d.jpg",
     "static/media/section3-image-min.jpg": "/freemont-rehab/static/media/section3-image-min.e87384b62091eb9bdcc6.jpg",
     "static/media/section2-image-min.jpg": "/freemont-rehab/static/media/section2-image-min.f7cc3aa9f56ab4562797.jpg",
     "static/media/section4-image-min.jpg": "/freemont-rehab/static/media/section4-image-min.be8443668ba98856bec3.jpg",
@@ -42,11 +42,11 @@
     "static/media/bluecross.png": "/freemont-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/freemont-rehab/index.html",
     "static/media/waves.svg": "/freemont-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.664c86a5.css.map": "/freemont-rehab/static/css/main.664c86a5.css.map",
-    "main.ea1898a2.js.map": "/freemont-rehab/static/js/main.ea1898a2.js.map"
+    "main.f7b497e0.css.map": "/freemont-rehab/static/css/main.f7b497e0.css.map",
+    "main.0b0490f8.js.map": "/freemont-rehab/static/js/main.0b0490f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.664c86a5.css",
-    "static/js/main.ea1898a2.js"
+    "static/css/main.f7b497e0.css",
+    "static/js/main.0b0490f8.js"
   ]
 }
