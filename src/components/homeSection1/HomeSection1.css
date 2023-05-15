@@ -1,11 +1,11 @@
 
 .homeSection1 {
-    padding: 12rem 0 3rem 0;
+    padding: 15% 0 3rem 0;
 }
 
-.homeSection1 .homeSection1-header h1{
+.homeSection1 .homeSection1-header h1 {
    font-size: 2.5rem;
-   color: var(--secondary-color); 
+   color: var(--primary-color); 
    text-align: center;
    padding: 0 2rem;
 }

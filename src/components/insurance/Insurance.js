@@ -12,7 +12,7 @@ const Insurance = () => {
             <>
             <div className='insurance main-menu'>
             <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x/>
+                <img src={Wave} alt="wave border" loading="lazy" repeat-x/>
             </div>
                         <div className="insurance-content">
                             <Fade top>
