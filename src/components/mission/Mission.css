@@ -8,8 +8,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #0a0a0a62;
-  }
+    background: #24232377;
+}
   
   .mission:before {
     content: '';

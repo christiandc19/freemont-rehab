@@ -15,6 +15,16 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+            // Popup message after send button is clicked
+            const feedbackEl = document.querySelector(".feedback");
+            feedbackEl.setAttribute("class", "feedback");
+            setTimeout(function() {
+            feedbackEl.setAttribute("class", "feedback hidden");
+            }, 4000);
+
+
+
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
         emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
@@ -28,6 +38,16 @@ const ContactForm = () => {
 
     return (
         <>
+<div className="contactform">
+
+
+<div className="contact2-header contact2-container">
+            <h1>DO YOU NEED URGENT HELP?</h1>
+            <p>Our Addiction and Recovery Support team is available to assist you.</p>
+        </div>
+
+
+
 
 <section className="container">
 <div>
@@ -49,6 +69,12 @@ const ContactForm = () => {
                 <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Submit" />
               </div>
+
+              <div className="textarea2 feedback hidden">
+                  <textarea name="message2" cols="30" rows="3" required>Message Sent to Ocean Valley BH Center!</textarea>
+                </div>
+
+
             </form>
     </div>
 </div>
@@ -60,17 +86,17 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3233295006"> +1 (123) 329-5006</a></p>
+            <p><AiOutlinePhone /><a href="tel:3237920502"> +1 (323) 792-0605</a></p>
     </div>
 
     <div class="get_form_inner2">
             <h2>EMAIL</h2>
-            <p><AiOutlineMail /> info@domainName.com  </p><br />
+            <p><AiOutlineMail /> info@ovbhi.com </p><br />
     </div>
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 37112 Maple Street, Fremont CA 95841</p>
+            <p><BsFillPinMapFill /> 71777 San Jacinto Dr Suite 102, Rancho Mirage, Ca 92270 </p>
     </div>
 
 </div>
@@ -84,7 +110,7 @@ const ContactForm = () => {
 
 
 
-
+</div>
         </>
     )
 }

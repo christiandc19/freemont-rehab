@@ -3,22 +3,30 @@
 
 .navbar {
     width: 100%;
-    height: 88px;
+    height: auto;
     z-index: 10;
-    background: #f0efe300;
+    background: #0000003f;
     position: absolute;
+    text-align: center;
 }
 
-.navbar .container {
+.nav-box {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1rem;
+    gap: 1rem;
 }
+
 
 .navbar-logo {
   z-index: 9999999;
+  width: 200px;
+  margin: auto 2rem;
+}
+
+.navbar-logo img {
+  width: 100%;
 }
 
 .navbar .icon {
@@ -26,23 +34,29 @@
   color: #fff;
 }
 
-.navbar .logo .icon {
+ .navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;
     color: var(--primary-color);
-}
+} 
 
 .hamburger {
     display: none;
     padding: 1rem;
+    margin: auto 0;
 }
 
 .navbar .nav-menu {
     height: 100%;
     align-items: center;
     display: flex;
-    padding: 1rem;
+    padding: .8rem 0;
 }
+
+  .navbar ul {
+    margin: auto;
+  }
+
 .navbar li {
     width: max-content;
     padding: .3rem 1rem;
@@ -53,9 +67,13 @@
 
 
 .navbar li a {
-  color: rgb(236, 235, 235);
+  color: rgb(224, 226, 225);
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+}
+
+.navbar li a:hover {
+  color: rgb(211, 124, 11);
 }
 
   .menu-item .sub__menus li a {
@@ -83,8 +101,8 @@
     display: none;
     background: white;
     border: 1px solid lavender;
-    border-radius: 10px;
-    width: 250px;
+    border-radius: 5px;
+    width: auto;
     left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
@@ -105,12 +123,32 @@
   }
 
 
+    .logo-hide {
+      display: none;
+    }
 
 
-@media screen and (max-width: 940px) {
-    .navbar .hamburger {
-        display: block;
-        z-index: 15;
+
+
+@media screen and (max-width: 1200px) {
+
+
+  .navbar .hamburger {
+    display: block;
+    z-index: 15;
+}
+
+
+    .navbar ul {
+      margin: auto 0;
+    }
+
+    .logo-hide {
+      display: block;
+    }
+
+    .mid-logo {
+      display: none;
     }
 
     .navbar li a {
@@ -126,7 +164,7 @@
         left:-100%;
         align-items: center;
         justify-content: center;
-        background: rgb(0, 0, 0);
+        background: #1C3B48;
         transition: 0.5s ease-in;
         color: white;
     }
@@ -136,7 +174,7 @@
     }
 
     .navbar li {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .navbar button {

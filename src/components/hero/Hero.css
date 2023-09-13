@@ -1,158 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Kaushan+Script&display=swap');
-video {
-  position: relative;
-  object-fit: cover;
-  width: 90vw;
-  height: 100vh;
-  border-radius: 2rem;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 
 .hero {
     width: 100%;
-    height: 90vh;
+    height: auto;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #052442;
-  }
+    background: #00000049;
+}
   
   .hero:before {
     content: '';
     position: absolute;
-    /* background: url('../../assets/hero-bg-2.jpg') no-repeat center top/cover; */
+    background: url('../../assets/hero-bg.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
 
-
-.hero .hero-container .content{
-  top: 13%;
-  position: relative;
-    width: 90vw;
-    height: 90vh;
-    z-index: 1;
-    background-color: #000000;
-    border-radius: 2rem;
-
+.hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 9rem 0 2rem ;
 }
 
-
-
-.hero-caption {
-  position: absolute;
-  z-index: 999999;
-  top: 35%;
-  width: fit-content;
-  left: 45%;
-  z-index: 6;
+.hero-left {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
 }
 
-.hero-logo {
+.hero-left h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: rgb(248, 244, 244);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.hero-left h2 {
+    font-size: 1.5rem;
+    color: rgb(229, 231, 229);
+    padding: .5rem 0;
     text-align: center;
 }
 
-.hero h1 {
-    font-size: 8rem;
-    text-align: left;
-    color: rgb(20, 69, 133);
-    font-family: 'Exo 2', sans-serif;
-  }
-
-.hero h2 {
-    font-size: 1.5rem;
-    text-align: left;
+.hero-left h3 {
+    font-size: 1rem;
     color: white;
+    text-align: center;
 }
 
-.hero-container p {
-    font-size: 18px;
-    text-align: left;
-    color: white;
+.hero-btn {
+    margin: auto;
+    text-align: center;
 }
 
-.hero .hero-btn button {
+
+.hero-left .hero-btn button {
     cursor: pointer;
+    background-color: rgb(230, 206, 161);
 }
+
+.hero-right {
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.hero-right img {
+    width: 100%;
+}
+
+
 
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 940px) {
 
-  .hero {
-    height: 70vh;
-  }
-
-  .hero .hero-container .content {
-      height: 70vh;
-      top: 18%;
-  }
-
-  .hero h2 {
-      font-size: 18px;
-      text-align: center;
-  }
-
-  .hero h1 {
-  text-align: center;
-  font-size: 6rem;
-  }
-
-  .hero-caption {
-    position: absolute;
-    z-index: 999999;
-    top: 40%;
-    width: 100%;
-    left: 0;
-  }
-
-  .hero p {
-        font-size: 12px;
-        text-align: center;
+    .hero-content {
+        flex-wrap: wrap-reverse;
     }
 
-  .hero .hero-container {
-  text-align: center;
-  left: 0;
-  }
+    .hero-left {
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+    }
 
-}
+    .hero-left h1 {
+        font-size: 4rem;
+    }
 
-
-@media screen and (max-width:940px) {
-
-
-  video {
-    height: 80vh;
-  }
-
-  .hero {
-    height: 50vh;
-  }
-
-  .hero .hero-container .content {
-      height: 45vh;
-      top: 25%;
-
-  }
-
-}
-
-
-
-@media screen and (max-width:700px) {
-
-  .hero h1 {
-    font-size: 3rem;
-  }
-
-  .hero-caption {
-    top: 50%;
-  }
+    .hero-left h2 {
+        font-size: 1.2rem;
+    }
+    
 
 }
