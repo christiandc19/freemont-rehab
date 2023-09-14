@@ -165,70 +165,26 @@
 }
 
 
-/* button */
-
-.TherapySA-btn {
-    width: 100%;
+.sa-btn {
+    margin: auto;
     text-align: center;
 }
 
-.TherapySA-cta {
-    position: relative;
-    padding: 12px 18px;
-    transition: all 0.2s ease;
-    border: none;
-    background: none;
-    justify-content: center;
-   }
-   
-   .TherapySA-cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 50px;
-    background: #a16423;
-    width: 45px;
-    height: 45px;
-    transition: all 0.3s ease;
-   }
-   
-   .TherapySA-cta span {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #ebf1f1;
-   }
-   
-   .TherapySA-cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #eff5f5;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-   }
-   
-   .TherapySA-cta:hover:before {
-    width: 100%;
-    background: #a16423;
-    ;
-   }
-   
-   .TherapySA-cta:hover svg {
-    transform: translateX(0);
-   }
-   
-   .TherapySA-cta:active {
-    transform: scale(0.95);
-   }
+
+ .sa-btn button {
+    cursor: pointer;
+    background-color: #f3c57d;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.sa-btn button:hover {
+    cursor: pointer;
+    background-color: rgb(25, 53, 104);
+    color: white;
+}
 
 
 

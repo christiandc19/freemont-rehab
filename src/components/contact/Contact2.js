@@ -18,7 +18,7 @@ const ContactForm = () => {
             feedbackEl.setAttribute("class", "feedback");
             setTimeout(function() {
             feedbackEl.setAttribute("class", "feedback hidden");
-            }, 4000);
+            }, 3000);
 
 
 
@@ -44,7 +44,7 @@ const ContactForm = () => {
 
 <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Mental Health and Addiction Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Mental Health and Addiction Support team is available to assist you.</p>
     </div>
 
 
@@ -95,7 +95,7 @@ const ContactForm = () => {
         <input className="contact-btn" type="submit" value="Submit" />
 
         <div className="textarea2 feedback hidden">
-          <textarea name="message2" cols="30" rows="3" required>Message Sent to Ocean Valley BH Center!</textarea>
+          <textarea name="message2" cols="30" rows="3" required>Message Sent to Fremont Rehab</textarea>
         </div>
 
 

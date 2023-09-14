@@ -93,20 +93,12 @@ const TherapyMH = () => {
           </div>
 
 
-          <div className="TherapyMH-btn">
-            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+          <div className='mh-btn'>
+          <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
               <Link to="/mental-health">
-                <div className="TherapyMH-btn">
-                  <button class="TherapyMH-cta">
-                    <span>VIEW ALL</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </button>
-                </div>
+                <button>VIEW ALL</button>
               </Link>
-            </LinkRoll>
+          </LinkRoll>
           </div>
 
 

@@ -28,19 +28,11 @@ const TherapySA = () => {
                 <br />
 
 
-                <div className="TherapySA-btn hide">
+                <div className='sa-btn hide'>
                   <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to="/substance-abuse">
-                      <div className="TherapySA-btn">
-                        <button class="TherapySA-cta">
-                          <span>VIEW ALL</span>
-                          <svg viewBox="0 0 13 10" height="10px" width="15px">
-                            <path d="M1,5 L11,5"></path>
-                            <polyline points="8 1 12 5 8 9"></polyline>
-                          </svg>
-                        </button>
-                      </div>
-                    </Link>
+                      <Link to="/substance-abuse">
+                        <button>VIEW ALL</button>
+                      </Link>
                   </LinkRoll>
                 </div>
 
@@ -110,19 +102,11 @@ const TherapySA = () => {
             </div>
 
 
-            <div className="TherapySA-btn hide-btn">
+            <div className='sa-btn hide-btn'>
                   <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to="/substance-abuse">
-                      <div className="TherapySA-btn">
-                        <button class="TherapySA-cta">
-                          <span>VIEW ALL</span>
-                          <svg viewBox="0 0 13 10" height="10px" width="15px">
-                            <path d="M1,5 L11,5"></path>
-                            <polyline points="8 1 12 5 8 9"></polyline>
-                          </svg>
-                        </button>
-                      </div>
-                    </Link>
+                      <Link to="/substance-abuse">
+                        <button>VIEW ALL</button>
+                      </Link>
                   </LinkRoll>
                 </div>
 

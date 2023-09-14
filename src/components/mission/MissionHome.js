@@ -12,7 +12,7 @@ const MissionHome = () => {
           </p>
 
           <h2>
-            "The road to recovery starts on Fremont Rehab"
+              "Embrace a Brighter Future: Transform Your Life at Fremont Rehab"
           </h2>
         </div>
       </div>

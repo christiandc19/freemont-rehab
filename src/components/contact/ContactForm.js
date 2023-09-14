@@ -20,7 +20,7 @@ const ContactForm = () => {
             feedbackEl.setAttribute("class", "feedback");
             setTimeout(function() {
             feedbackEl.setAttribute("class", "feedback hidden");
-            }, 4000);
+            }, 3000);
 
 
 
