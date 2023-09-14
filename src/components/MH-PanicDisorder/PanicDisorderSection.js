@@ -16,7 +16,7 @@ const  panicDisorderSection = () => {
                 <div className='panic-section-flex'>
 
                   <div className='panic-section-left'>
-                    <p>Anyone can have anxiety, stress, and panic regularly. Panic attacks are notably and often mistaken for heart attacks, as many of the physical symptoms are similar between the two. These attacks can happen at any time and often happen more frequently than that, or as little as a few times.<br/>A huge part of what makes panic attack disorder so difficult to cope with is a panic disorder’s psychological byproduct of having to live every day in constant fear of the next attack.
+                    <p>Anyone can have anxiety, stress, and panic regularly. Panic attacks are notably and often mistaken for heart attacks, as many of the physical symptoms are similar between the two. These attacks can happen at any time and often happen more frequently than that, or as little as a few times.<br/><br/>A huge part of what makes panic attack disorder so difficult to cope with is a panic disorder’s psychological byproduct of having to live every day in constant fear of the next attack.
                     </p>
                   </div>
 

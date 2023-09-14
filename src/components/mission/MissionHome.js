@@ -8,17 +8,11 @@ const MissionHome = () => {
         <div className="mission-home-content container">
           <h1>OUR MISSION</h1>
           <p>
-            Provide every individual a quiet, calm, and safe place to begin the
-            journey. It is our philosophy that in order to reduce the incidence
-            and prevalence of Mental Health issues and other behavioral health
-            problems among adults through the provision of addiction treatment
-            services, each individual must be empowered to make decisions about
-            their care with the expected outcome of an increased quality of
-            life.
+          At Fremont Rehab, we are dedicated to empowering individuals and families on their journey towards mental well-being and recovery from addiction. With compassion, evidence-based practices, and a commitment to holistic care, we strive to restore hope, foster resilience, and promote lasting healing. Our mission is to provide a safe, inclusive, and supportive environment where every individual can thrive, grow, and reclaim their path to a brighter, healthier future."
           </p>
 
           <h2>
-            "The road to recovery starts on Ocean Valley Behavioral Health"
+            "The road to recovery starts on Fremont Rehab"
           </h2>
         </div>
       </div>

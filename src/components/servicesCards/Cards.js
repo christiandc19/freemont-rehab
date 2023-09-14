@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cards.css";
+import Fade from 'react-reveal/Fade';
 
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
@@ -21,12 +22,12 @@ const Cards = () => {
 
       <div className="cards-flex">
 
-
+      <Fade left>
         <div className="services-card">
           <img src={Card1} alt="Mental Health" loading="lazy" />
             <div className="card-body">
               <h1 className="card-title">Partial Hospitalization</h1>
-              <p className="card-text">Our treatment programs give you the path to healing/recovery. Through our PHP program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today.</p>
+              <p className="card-text"> This intensive, structured program provides a comprehensive level of care for individuals seeking a dedicated and supportive environment on their path to recovery from mental health and addiction challenges.</p>
                 <div className="services-card-btn">
                   <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
                     <Link to="/php">
@@ -36,13 +37,14 @@ const Cards = () => {
                 </div>
             </div>
         </div>
+      </Fade>
 
-
+      <Fade top>
         <div className="services-card">
           <img src={Card2} alt="Mental Health" loading="lazy" />
             <div className="card-body">
               <h1 className="card-title">Intensive Outpatient</h1>
-              <p className="card-text">Through our Intensive Outpatient Program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today.</p>
+              <p className="card-text"> Our IOP is designed to provide a comprehensive level of care for individuals seeking structured support in their journey towards recovery from mental health and addiction challenges.</p>
                 <div className="services-card-btn">
                   <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
                     <Link to="/iop">
@@ -52,13 +54,14 @@ const Cards = () => {
                 </div>
             </div>
         </div>
+      </Fade>
 
-
+      <Fade right>
         <div className="services-card">
           <img src={Card3} alt="Mental Health" loading="lazy" />
             <div className="card-body">
               <h1 className="card-title">Outpatient</h1>
-              <p className="card-text">At Ocean Valley Behavioral Health Treatment Center, we recognize that overcoming addiction on your own may not be possible. Fortunately our treatment programs give you the path to healing/recovery. Through our outpatient program, we give you the tools to manage your addiction in the most healthy way possible.</p>
+              <p className="card-text"> Our Outpatient Programs offers a flexible and supportive approach to treatment for individuals seeking to overcome mental health and addiction challenges.</p>
                 <div className="services-card-btn">
                   <LinkRoll activeClass="active" to="top" spy={true}smooth={true} duration={500}>
                     <Link to="/op">
@@ -68,6 +71,7 @@ const Cards = () => {
                 </div>
             </div>
         </div>
+      </Fade>
 
       </div>
     </div>

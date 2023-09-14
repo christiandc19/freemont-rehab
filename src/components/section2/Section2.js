@@ -26,7 +26,7 @@ const Section2 = () => {
                 </div>
                 <div>
                   <h1>Compassionate staff</h1>
-                  <p>Compassionate staff that is dedicated to your success. The staff at Ocean Valley Behavioral Health Treatment Center offers compassionate and judgement free treatment.</p>
+                  <p>Compassionate staff that is dedicated to your success. The staff at Fremont Rehab Treatment Center offers compassionate and judgement free treatment.</p>
                 </div>
           </div>
 

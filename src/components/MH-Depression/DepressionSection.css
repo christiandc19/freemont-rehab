@@ -27,6 +27,10 @@
   padding: 1rem;
 }
 
+.depression-section-header h1 {
+  padding: .5rem 0;
+}
+
 .depression-section-flex {
   display: flex;
   justify-content: center;

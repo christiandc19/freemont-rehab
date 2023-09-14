@@ -15,17 +15,22 @@ const Hero = () => {
         <div className='hero'>
             <div className="hero-content container">
                 <div className="hero-left">
+                            <Fade top>
                             <h1>Fremont Rehab</h1>
+                            </Fade>
                                 <Fade left>
                                     <h2>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
                                 </Fade>
+                            <Fade left>
                             <div className='hero-btn'>
                                 <Link to="/contact">
                                     <button>Contact Us</button>
                                 </Link>
                             </div>
+                            </Fade>
+                            <Fade left>
                             <h3>"Caring for Your Mental Well-being, Every Step of the Way."</h3>
-
+                            </Fade>
                 </div>
 
 

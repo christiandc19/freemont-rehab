@@ -12,7 +12,7 @@ const Treatment = () => {
 
 {/* -------------------------------- HERO -------------------------------------- */}
 
-        <div className='treatment main-menu'>
+        <div className='treatment'>
 
             <div className="treatment-content">
                 <Fade right>

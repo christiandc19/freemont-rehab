@@ -19,8 +19,17 @@
   opacity: 0.03;
 }
 
+.alcohol-section-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.alcohol-section-header h1 {
+  padding: 1rem 0;
+}
+
 .alcohol-section-content {
-  padding: 3rem 1rem;
+  padding: 1rem;
 }
 
 .alcohol-section-flex {
@@ -34,6 +43,10 @@
   margin: auto;
 }
 
+.alcohol-section-left h1 {
+  padding: 1rem 0;
+  text-align: left;
+}
 
 .alcohol-section-right {
   width: 500px;
@@ -49,6 +62,10 @@
   padding: .5rem;
 }
 
+
+.alcohol-section h1 {
+  font-size: 1.2rem;
+}
 
 /* MEDIA QUERIES */
 
@@ -69,9 +86,21 @@
   }
 
   .alcohol-section-left h1 {
-    text-align: center;
+    text-align: left;
+  }
+
+  .alcohol-section-left p {
+    text-align: left;
   }
   
+  .alcohol-section-header p {
+    text-align: left;
+  }
+
+  .alcohol-section-header h1 {
+    text-align: left;
+  }
+
   }
 
 

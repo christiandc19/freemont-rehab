@@ -12,30 +12,22 @@ const AboutSection = () => {
           </div>
 
           <div className="about-content-right">
-            <h1>ABOUT US</h1> <br />
-            <h2>
-              <i>Get the right care from the people who care</i>
-            </h2>{" "}
-            <br />
+            <h1>About Us</h1>
             <p>
-              Ocean Valley Behavioral Health Treatment Center has refined and
-              well educated staff that is committed to providing the best
-              possible level of care to our clients. We are there for you,
-              through every stage of recovery. No matter where you’re located,
-              you can reach out and get in touch with someone from our staff
-              today
-            </p>{" "}
-            <br />
-            <p>
-              We strives to make sobriety less stressful by focusing on sobriety
-              and utilize established medical treatments to help you get sober
-              and stay sober. <br />
-              <br />
-              Ocean Valley Behavioral Health helps you taper in a safe,
-              structured environment. We are there for you, through every stage
-              of recovery. No matter where you’re located, you can reach out and
-              get in touch with someone from our staff today.
+            Welcome to Fremont Rehab, where hope finds a home and healing begins. We are a dedicated team of compassionate professionals committed to supporting individuals and families in their journey towards mental well-being and recovery from addiction.
             </p>
+
+            <h1>Our Vision:</h1>
+            <p>
+            We envision a world where mental health is prioritized, stigma is dismantled, and every individual has access to comprehensive, evidence-based care. Through our integrated approach, we aim to empower individuals to lead fulfilling, purpose-driven lives.
+            </p>
+
+            <h1>Our Mission:</h1>
+            <p>
+            At Fremont Rehab, we are dedicated to empowering individuals and families on their journey towards mental well-being and recovery from addiction. With compassion, evidence-based practices, and a commitment to holistic care, we strive to restore hope, foster resilience, and promote lasting healing. Our mission is to provide a safe, inclusive, and supportive environment where every individual can thrive, grow, and reclaim their path to a brighter, healthier future.
+            </p>
+
+
           </div>
         </div>
       </div>

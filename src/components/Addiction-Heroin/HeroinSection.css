@@ -19,6 +19,25 @@
   opacity: 0.03;
 }
 
+.heroin-section-header {
+  text-align: left;
+  padding: 1rem;
+}
+
+.heroin-section-header h1 {
+  padding: 1rem 0;
+}
+
+.heroin-section-left h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
+.heroin-section-header h5 {
+  padding: 1rem 0;
+  color: rgb(201, 140, 8);
+}
+
 .heroin-section-content {
   padding: 3rem 1rem;
 }
@@ -32,6 +51,10 @@
 .heroin-section-left {
   width: 50%;
   margin: auto;
+}
+
+.heroin-section-left h1 {
+  padding: 1rem 0;
 }
 
 .heroin-section-right {
@@ -48,6 +71,9 @@
   padding: .5rem;
 }
 
+.heroin-section h1 {
+  font-size: 1.2rem;
+}
 
 
 /* MEDIA QUERIES */

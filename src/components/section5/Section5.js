@@ -12,7 +12,7 @@ const Section5 = () => {
             </h2>{" "}
             <br />
             <p>
-              At Ocean Valley Behavioral Health, we offer different levels of
+              At Fremont Rehab, we offer different levels of
               care based on each individual’s needs. Our programs consist of an
               intensive outpatient program (IOP) and a more demanding and
               structured partial hospitalization program (PHP). <br /> <br />

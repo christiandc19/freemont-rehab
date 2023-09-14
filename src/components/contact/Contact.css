@@ -23,7 +23,8 @@
 .contact-hero .contact-hero-content {
     display: block;
     position: absolute;
-    top: 35%;
+    top: 40%;
+    left: 5%;
     padding: 1rem;
 }
 
@@ -35,8 +36,8 @@
 
 .contact-hero p {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: left;
 }
 
 
@@ -44,12 +45,20 @@
 
 @media screen and (max-width:940px) {
 
-.contact-hero h2 {
-    color: white;
-    font-size: 1.5rem;
+.contact-hero .contact-hero-content {
+    width: 100%;
+    top: 40%;
+    left: 0%;
+    padding: 1rem;
+}
+    
+
+.contact-hero p {
+    text-align: center;
 }
 
 .contact-hero h1 {
     font-size: 3rem;
+    text-align: center;
 }
 }

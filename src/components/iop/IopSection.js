@@ -21,7 +21,7 @@ const IopSection = () => {
             <br />
             <h1>Intensive Outpatient Program (IOP)</h1>
             <p>
-            Our IOP enables patients to continue their day-to-day regimen while simultaneously undergoing our best possible care. Measured on a case-by-case basis, patients may live in our treatment center, in a sober living community, or at their own home.<br /> <br />At Ocean Valley Behavioral Health Clinic, we recognize that overcoming addiction on your own may not be possible. Fortunately our treatment programs give you the path to healing/recovery. Through our intensive outpatient program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today.</p>
+            Our IOP enables patients to continue their day-to-day regimen while simultaneously undergoing our best possible care. Measured on a case-by-case basis, patients may live in our treatment center, in a sober living community, or at their own home.<br /> <br />At Fremont Rehab Clinic, we recognize that overcoming addiction on your own may not be possible. Fortunately our treatment programs give you the path to healing/recovery. Through our intensive outpatient program, we give you the tools to manage your addiction in the most healthy way possible. To learn more, reach out to us today.</p>
 
             <h1>Why choose an IOP?</h1>
             <p>

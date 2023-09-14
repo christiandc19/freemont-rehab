@@ -56,20 +56,20 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">71777 San Jacinto Dr Suite 102,</div>
-          <div class="text-two">Rancho Mirage, Ca 92270</div>
+          <div class="text-one">37112 Maple Street,</div>
+          <div class="text-two">Fremont CA 95841</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3237920502"> +1 (323) 792-0605</a></div>
+          <div class="text-one"><a href="tel:3233304771"> +1 (323) 330-4771</a></div>
         </div>
 
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@ovbhi.com</div>
+          <div class="text-one">info@fremontrehab.biz</div>
         </div>
       </div>
 

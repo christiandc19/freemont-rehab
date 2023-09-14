@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import logo from "../../assets/nav-logo.png";
+import logo from "../../assets/nav-logo-wh.png";
 import "./FooterStyles.css";
 
 import { Link as LinkRoll } from "react-scroll";
@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="top">
 
             <div className="logo-footer">
-              <img src={logo} alt="Sacramento Rehab Logo" loading="lazy"/>
+              <img src={logo} alt="Fremont Rehab Logo" loading="lazy"/>
             </div>
 
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
           <p className="copyright">
             <p>
-              &copy; 2023 Ocean Valley Behavioral Health. All rights reserved
+              &copy; 2023 Fremont Rehab. All rights reserved
             </p>
           </p>
         </div>

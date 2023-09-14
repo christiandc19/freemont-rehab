@@ -3,9 +3,18 @@
 .menu3 {
     padding: 5rem 0;
 }
+
 .menu3-header {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
+}
+
+.menu3-header h1 {
+  padding: .5rem;
+}
+
+.menu3-header p {
+  padding: .5rem;
 }
 
 

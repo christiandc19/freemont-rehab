@@ -28,6 +28,16 @@
 
 
 
+.card-icon {
+    width: 150px;
+    margin: auto;
+}
+
+.card-icon img {
+    width: 100%;
+}
+
+
 /* HEADER */
 
 .TherapyMH .TherapyMH-header {
@@ -44,12 +54,13 @@
     color: #fd9b2f;
     font-size: 1rem;
     letter-spacing: 8px; 
+    padding: .5rem;
 }
 
 .TherapyMH .TherapyMH-header p {
     color: rgb(26, 25, 25);
-    font-size: 3rem;
-    letter-spacing: 5px;
+    font-size: 1.5rem;
+    padding: .5rem;
 }
 
 

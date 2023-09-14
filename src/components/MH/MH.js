@@ -1,22 +1,24 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
 import './MH.css'
 
 
 const MH = () => {
     return (
-        <>
-        <div className='mh'>
+<>        
 
-                <div className="mh-content">
-                    <Fade top>
-                    <h1>MENTAL HEALTH PROGRAMS</h1>
-                    <p>Your mental health is just as important as your physical health. And no matter what you’re going through, with the right treatment program, anything is possible.</p>
-                    </Fade>
-                </div>
-            </div>
-        </>
+<div className='mental-health'>
+
+<div className="mental-health-content">
+    <Fade right>
+        <h1>MENTAL HEALTH PROGRAMS</h1>
+        <p>Treatment Planning for Long-Lasting Recovery</p>
+    </Fade>
+</div>
+</div>
+
+</>
+
     )
 }
 

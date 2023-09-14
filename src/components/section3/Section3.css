@@ -3,7 +3,7 @@
 .section3 {
     width: 100%;
     height: auto;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(43, 55, 88, 0);
     position: relative;
   }
   
@@ -46,8 +46,8 @@
 
 
 .section3-right h2 {
-    font-size: 2rem;
-    color: bla;
+    font-size: 1rem;
+    color: black;
     padding: 1rem 0;
 }
 
@@ -58,14 +58,17 @@
     letter-spacing: 8px; 
 }
 
-.section3 hr {
-    width: 40%;
-    height: 2px;
-    background-color: #ebae39;
-    border: none;
-    border-radius: 1px;
+.shape3 {
+    width: 200px;
     position: absolute;
-    right: 35%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.shape3 img {
+    width: 100%;
 }
 
 
@@ -88,6 +91,10 @@
     }
 
     .section3 hr {
+        display: none;
+    }
+
+    .shape3 {
         display: none;
     }
 

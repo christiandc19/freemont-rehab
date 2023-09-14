@@ -4,7 +4,6 @@ import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 import "./Menu2.css";
 
-import Contact2 from "../contact/Contact2";
 
 const Menu2 = () => {
   return (
@@ -12,11 +11,11 @@ const Menu2 = () => {
     <div className="menu2">
       <div className="menu2-header container">
         <h1>
-          OCEAN VALLEY BEHAVIORAL HEALTH TREATMENT CENTER OFFERS VARIOUS SUBSTANCE ABUSE ADDICTION
+          FREMONT REHAB OFFERS VARIOUS SUBSTANCE ABUSE ADDICTION
           PROGRAMS
         </h1>
         <p>
-          At Ocean Valley Behavioral Health Treatment Center, clients receive individual
+          At Fremont Rehab, clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to
@@ -235,7 +234,6 @@ const Menu2 = () => {
       </div>
 
 
-      <Contact2 />
     </>
   );
 };

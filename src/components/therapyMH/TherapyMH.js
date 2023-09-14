@@ -4,10 +4,12 @@ import { Link as LinkRoll } from "react-scroll";
 
 import "./TherapyMH.css";
 import { Link } from "react-router-dom";
-import { BiBrain } from "react-icons/bi";
-import { BiSad } from "react-icons/bi";
-import { FaTheaterMasks } from "react-icons/fa";
-import { GiBrain } from "react-icons/gi";
+
+import Anxiety from "../../assets/mh-anxiety.png";
+import Depression from "../../assets/mh-depression.png";
+import Bipolar from "../../assets/mh-bipolar.png";
+import Stress from "../../assets/mh-stress.png";
+
 
 const TherapyMH = () => {
   return (
@@ -19,7 +21,7 @@ const TherapyMH = () => {
             <div className="TherapyMH-header">
               <div className="left-content container">
                 <h1>MENTAL HEALTH TREATMENT</h1>
-                <p>Recovery begins here.</p>
+                <p>Renew Hope, Restore Well-being: Our Comprehensive Mental Health Treatment Programs</p>
               </div>
             </div>
           </Fade>
@@ -32,7 +34,11 @@ const TherapyMH = () => {
 
             <div className="card">
               <div>
-                <BiBrain className="box-icon"/>
+
+                <div className="card-icon">
+                  <img src={Anxiety} alt="Anxiety" loading="lazy" />
+                </div>   
+
                 <h1>ANXIETY</h1>
                 <p>
                   Inability to manage one’s drinking habits. It is the most
@@ -44,8 +50,9 @@ const TherapyMH = () => {
 
             <div className="card">
               <div>
-                <BiSad className="box-icon" />
-                <h1>DEPRESSION</h1>
+                <div className="card-icon">
+                  <img src={Depression} alt="Depression" loading="lazy" />
+                </div>                   <h1>DEPRESSION</h1>
                 <p>
                   Abuse of prescription medications can be recreational, due to
                   addiction, or both, and the consequences can be severe or
@@ -57,7 +64,10 @@ const TherapyMH = () => {
 
             <div className="card">
               <div>
-                <FaTheaterMasks className="box-icon" />
+
+                <div className="card-icon">
+                  <img src={Bipolar} alt="Bipolar" loading="lazy" />
+                </div>                 
                 <h1>BIPOLAR</h1>
                 <p>
                   Heroin is an opioid stimulant created from morphine and the
@@ -69,7 +79,9 @@ const TherapyMH = () => {
 
             <div className="card">
               <div>
-                <GiBrain className="box-icon" />
+                <div className="card-icon">
+                  <img src={Stress} alt="Stress" loading="lazy" />
+                </div>                 
                 <h1>STRESS DISORDER</h1>
                 <p>
                   When taken in high doses, Xanax can lead to serious side

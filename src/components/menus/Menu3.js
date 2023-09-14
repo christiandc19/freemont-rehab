@@ -11,11 +11,11 @@ const Menu3 = () => {
     <div className="menu3">
       <div className="menu3-header container">
         <h1>
-        OCEAN VALLEY BEHAVIORAL HEALTH TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
+        FREMONT REHAB OFFERS VARIOUS MENTAL HEALTH
           PROGRAMS
         </h1>
         <p>
-          At Ocean Valley Behavioral Health Treatment Center, clients receive individual
+          At Fremont Rehab Treatment Center, clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to

@@ -2,6 +2,8 @@
 
 .section2 {
     padding: 2rem 0;
+    background: rgb(43, 55, 88);
+    margin: 3rem auto;
 }
 
 .section2-content {
@@ -20,7 +22,7 @@
 }
 
 .section2 .card span {
-    color: orange;
+    color: rgb(177, 144, 35);
     font-size: 3rem;
     text-align: center;
     
@@ -28,7 +30,7 @@
 
 .section2-content h1 {
     text-align: center;
-    color: #000;
+    color: #ece6e6;
     padding: 1rem;
     font-size: 1.2rem;
     font-family: 'Instrument Serif', serif;
@@ -37,6 +39,7 @@
 
 .section2-content p {
     text-align: center;
+    color: #ece6e6;
 }
 
 

@@ -5,7 +5,7 @@
     width: 100%;
     height: auto;
     z-index: 10;
-    background: #0000003f;
+    background: #00000000;
     position: absolute;
     text-align: center;
 }
@@ -21,7 +21,7 @@
 
 .navbar-logo {
   z-index: 9999999;
-  width: 200px;
+  width: 180px;
   margin: auto 2rem;
 }
 

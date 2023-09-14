@@ -2,6 +2,7 @@ import React from "react";
 import "./Section3.css";
 
 import wrapper1 from "../../assets/section3-img1.jpg";
+import Shape1 from "../../assets/shape1.png";
 
 const Section3 = () => {
   return (
@@ -9,15 +10,17 @@ const Section3 = () => {
       <div className="section3 ">
         <div className="section3-content container">
           <div className="section3-left">
+            <div className='shape3'>
+                  <img src={Shape1} alt="shape" loading="lazy" />
+            </div>
             <img src={wrapper1} alt="nurse" loading="lazy" />
           </div>
 
           <div className="section3-right">
             <h1>Treatment</h1> <br />
-            <hr />
 
             <h2>
-              <i>We care about your mental health.</i>
+              <i>"Transforming Lives: Comprehensive Mental Health and Addiction Treatment for Lasting Recovery"</i>
             </h2>
             <p>
               All treatment clients will have a recovery/treatment plan

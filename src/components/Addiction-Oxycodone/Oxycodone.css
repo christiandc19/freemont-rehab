@@ -2,8 +2,8 @@
 
 .oxycodone {
     width: 100%;
-    height: 80vh;
-    background: #00000069;
+    height: 60vh;
+    background: #00000086;
     position: relative;
   }
   
@@ -26,12 +26,12 @@
 .oxycodone-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 60%;
     padding: 1rem;
 }
 
 .oxycodone h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
@@ -44,7 +44,7 @@
 @media screen and (max-width:940px) {
 
 .oxycodone h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 }
