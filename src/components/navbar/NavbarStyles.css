@@ -103,7 +103,7 @@
     border: 1px solid lavender;
     border-radius: 5px;
     width: auto;
-    left: -17px;
+    left: -6rem;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
@@ -131,6 +131,10 @@
 
 
 @media screen and (max-width: 1200px) {
+
+  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
+    display: none;
+  }
 
 
   .navbar .hamburger {
@@ -191,10 +195,6 @@
 
       #submenu-item li {
         padding: .2rem 1rem;
-      }
-
-      .sub__menus {
-        width: 250px;
       }
 
 }
