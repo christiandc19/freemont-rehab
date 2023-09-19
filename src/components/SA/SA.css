@@ -42,6 +42,7 @@
     font-size: 1.5rem;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -51,4 +52,5 @@
 .sa h1 {
     font-size: 2rem;
 }
+
 }

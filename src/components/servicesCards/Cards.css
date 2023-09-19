@@ -2,8 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
+.section-bg {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.section-bg:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.05;
+}
+
 #cards {
-  background-color: #ffffff;
   padding: 3rem 0;
 }
 

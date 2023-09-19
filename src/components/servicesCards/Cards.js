@@ -12,6 +12,7 @@ import Card3 from "../../assets/OP.jpg";
 const Cards = () => {
   return (
     <>
+    <div className="section-bg">
       <div id="cards">
         <div className="main-cards-header container">
           <h1>OUR PROGRAMS</h1>
@@ -75,6 +76,7 @@ const Cards = () => {
 
       </div>
     </div>
+  </div>
     </>
   );
 };
