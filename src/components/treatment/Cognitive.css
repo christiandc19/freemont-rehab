@@ -20,7 +20,8 @@
   }
 
   .cognitive-content {
-    padding: 1rem 0;
+    padding: 1rem;
+    width: 100%;
   }
 
   .cognitive-flex {
@@ -32,12 +33,11 @@
   .cognitive-right {
     width: 50%;
     margin: auto;
-    padding: 1rem;
   }
 
   .cognitive-right h1 {
-    padding: 1rem 0;
     text-align: center;
+    padding: 1rem 0;
   } 
   .cognitive-right p {
     font-family: 'Poppins', sans-serif;
@@ -47,7 +47,6 @@
   }
 
   .cognitive-left {
-    padding: 1rem;
     width: 500px;
     margin: auto;
   }
@@ -74,10 +73,6 @@
 
       .cognitive-left {
         width: 90%;
-      }
-
-      .cognitive-right h1, .cognitive-right p {
-        text-align: center;
       }
 
       .cognitive-flex {
