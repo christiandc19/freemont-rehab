@@ -32,10 +32,12 @@
 
 .insurance-thumbnail {
     width: 100px;
+    height: auto;
 }
 
 .insurance-thumbnail img {
     width: 100%;
+    height: auto;
     filter: grayscale(100%);
     opacity: 0.5;
 }
