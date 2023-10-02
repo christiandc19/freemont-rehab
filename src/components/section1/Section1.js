@@ -2,7 +2,6 @@ import React from 'react'
 import './Section1.css'
 import img1 from "../../assets/section1-img1.jpg";
 import img2 from "../../assets/section1-img2.jpg";
-import Fade from 'react-reveal/Fade';
 
 import Shape1 from "../../assets/shape1.png";
 import Shape2 from "../../assets/shape2.png";
@@ -13,21 +12,18 @@ const Section1 = () => {
 
     <div className='section1'>
 
-          <Fade top>
           <div className='section1-header container'>
                 <h1>What We Do</h1>
                 <p>
                 At Fremont Rehab, we are committed to providing compassionate, evidence-based care to individuals and families struggling with mental health challenges and addiction. Our dedicated team of licensed professionals, including therapists, counselors, and medical experts, work collaboratively to offer a range of comprehensive services designed to support your unique journey towards healing and recovery.
                 </p>
           </div>
-          </Fade>
 
 
         <div className="section1-content container">
 
 
 
-          <Fade left>
           <div className='section1-left'>
                 <h2>1. Assessment and Diagnosis</h2>
                 <p>We begin by conducting thorough assessments to understand your specific needs, challenges, and strengths. Our experienced clinicians employ a holistic approach, considering both mental health and addiction issues, to provide an accurate diagnosis. This serves as the foundation for creating a personalized treatment plan tailored to your individual circumstances.</p>
@@ -41,16 +37,13 @@ const Section1 = () => {
                 <h2>4. Medication Management</h2>
                 <p>For individuals who may benefit from medication, our board-certified psychiatrists work closely with you to determine the most effective treatment options. We prioritize informed decision-making, providing education about medications, monitoring for effectiveness, and adjusting treatment plans as needed to achieve optimal outcomes.</p>
           </div>
-          </Fade>
 
-          <Fade right>
           <div className='section1-right'>
             <div className='shape'>
                   <img src={Shape1} alt="shape" loading="lazy" />
             </div>
             <img src={img2} alt="Happy Man" loading="lazy" />
           </div>
-          </Fade>
 
         </div>
 
@@ -58,16 +51,13 @@ const Section1 = () => {
 
         <div className="section1-flex2 container">
 
-                <Fade left>
                 <div className='flex2-left'>
                 <div className='shape2'>
                   <img src={Shape2} alt="shape" loading="lazy" />
                 </div>
                   <img src={img1} alt="Calm man in front of the sea" loading="lazy" />
                 </div>
-                </Fade>
                 
-                <Fade right>
                 <div className='flex2-right'>
                   <h2>5. Holistic Wellness Practices</h2>
                     <p>We recognize the importance of nurturing the whole person—mind, body, and spirit. Our center offers holistic interventions such as yoga, meditation, nutrition counseling, and exercise programs to complement traditional therapeutic approaches. These practices promote overall well-being and resilience in your recovery journey.</p>
@@ -81,7 +71,6 @@ const Section1 = () => {
                     <h2>8. Community Outreach and Advocacy</h2>
                     <p>We believe in breaking down stigma and advocating for mental health and addiction awareness. Our center actively engages with the community through workshops, events, and educational initiatives, fostering a supportive environment for individuals seeking help and understanding.</p>
                 </div>
-                </Fade>
 
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 
 import "./TherapySA.css";
@@ -14,9 +13,9 @@ const TherapySA = () => {
   return (
     <>
       <div className="TherapySA">
+
         <div className="content">
           
-          <Fade left>
             <div className="TherapySA-left">
               <div className="left-content">
                 <h1>Types of Substance Addiction Disorder We Treat</h1>
@@ -40,7 +39,6 @@ const TherapySA = () => {
 
               </div>
             </div>
-          </Fade>
 
 
           <div className="TherapySA-right">
@@ -62,7 +60,7 @@ const TherapySA = () => {
                 <div className="box-icon">
                   <img src={Prescriptions} alt="Prescriptions" loading="lazy" />
                 </div>                
-                <h1>PRESCRIPTION ADDICTION</h1>
+                <h1>PRESCRIPTIONS</h1>
                 <p>
                   Abuse of prescription medications can be recreational, due to
                   addiction, or both, and the consequences can be severe or

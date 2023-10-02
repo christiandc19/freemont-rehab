@@ -41,7 +41,7 @@
 .TherapyMH .TherapyMH-header {
     width: 100%;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 .TherapyMH .left-content {
@@ -129,6 +129,10 @@
         -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
         box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
         padding: 1rem;
+    }
+
+    .TherapyMH .TherapyMH-header p{
+        font-size: 1rem;
     }
 
 

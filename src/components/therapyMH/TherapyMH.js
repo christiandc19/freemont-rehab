@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 
 import "./TherapyMH.css";
@@ -17,14 +16,10 @@ const TherapyMH = () => {
       <div className="TherapyMH">
         <div className="content">
 
-          <Fade left>
             <div className="TherapyMH-header">
-              <div className="left-content container">
                 <h1>MENTAL HEALTH TREATMENT</h1>
                 <p>Renew Hope, Restore Well-being: Our Comprehensive Mental Health Treatment Programs</p>
               </div>
-            </div>
-          </Fade>
 
 
 

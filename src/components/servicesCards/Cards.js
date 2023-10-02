@@ -23,7 +23,7 @@ const Cards = () => {
 
       <div className="cards-flex">
 
-      <Fade left>
+      <Fade top>
         <div className="services-card">
           <img src={Card1} alt="Mental Health" loading="lazy" />
             <div className="card-body">
@@ -40,7 +40,7 @@ const Cards = () => {
         </div>
       </Fade>
 
-      <Fade top>
+      <Fade bottom>
         <div className="services-card">
           <img src={Card2} alt="Mental Health" loading="lazy" />
             <div className="card-body">
@@ -57,7 +57,7 @@ const Cards = () => {
         </div>
       </Fade>
 
-      <Fade right>
+      <Fade top>
         <div className="services-card">
           <img src={Card3} alt="Mental Health" loading="lazy" />
             <div className="card-body">

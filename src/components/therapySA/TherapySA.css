@@ -23,31 +23,24 @@
 
 .TherapySA .content {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
     gap: 1rem;
-    top: 10%;
-    padding: 5rem 0;
+    padding: 5rem 1rem;
 }
 
 .box-icon {
     font-size: 6rem;
     color: rgb(139, 85, 4);
-    padding: 1rem 0;
 }
 
 
 /* LEFT */
 
 .TherapySA .TherapySA-left {
-    width: 500px;
+    width: 40%;
     margin: auto;
-    padding: 1rem;
 }
 
-.TherapySA .left-content {
-    top: 15%;
-
-}
 
 .TherapySA .TherapySA-left h1{
     color: rgb(243, 237, 237);
@@ -57,7 +50,7 @@
 
 .TherapySA .TherapySA-left p {
     color: rgb(201, 197, 197);
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -69,7 +62,7 @@
 }
 
  .TherapySA-right {
-    width: 800px;
+    width: 700px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +72,7 @@
 
 .TherapySA-right .box {
     height: auto;
-    width: 350px;
+    width: 280px;
     background-color: rgba(235, 227, 227, 0.062);
     padding: .5rem ;
     border-radius: 10px;
@@ -112,6 +105,7 @@
     text-align: center;
     padding: 0 1rem;
     text-align: center;
+    font-size: 12px;
 }
 
 /* box 2 */
@@ -128,7 +122,7 @@
     color: rgb(238, 230, 230);
     text-align: center;
     padding: 0 1rem;
-    text-align: center;
+    font-size: 12px;
 }
 
 /* box 3 */
@@ -145,7 +139,8 @@
     color: rgb(238, 230, 230);
     text-align: center;
     padding: 0 1rem;
-    text-align: center;
+    font-size: 12px;
+
 }
 
 /* box 4 */
@@ -161,7 +156,7 @@
     color: rgb(238, 230, 230);
     text-align: center;
     padding: 0 1rem;
-    text-align: center;
+    font-size: 12px;
 }
 
 
@@ -192,10 +187,16 @@
     display: none;
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:940px) {
     .TherapySA .TherapySA-left {
         width: 100%;
     }
+
+    
+    .TherapySA .TherapySA-right {
+        width: 100%;
+    }
+
 
     .hide {
         display: none;
@@ -210,35 +211,20 @@
     .TherapySA .content {
         flex-wrap: wrap;
         text-align: center;
-        padding: 1rem;
     }
 
     .TherapySA .content p {
         text-align: center;
-        padding: 0 1rem;
     }
-
-}
-
-
-@media screen and (max-width:940px) {
-
 
     .TherapySA-right  .box{
         width: 90vw;
     }
     
-    .TherapySA .TherapySA-left h1{
+    .TherapySA .TherapySA-left h1 {
         font-size: 2rem;
     }
 
-    .TherapySA .TherapySA-left {
-        width: 90vw;
-    }
-
-    .TherapySA .TherapySA-right {
-        width: 90%;
-    }
 
 
     

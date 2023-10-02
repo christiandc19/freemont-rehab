@@ -20,13 +20,13 @@
 .section3-content {
     display: flex;
     justify-content: center;
-    padding: 4rem 0;
+    gap: 1rem;
+    padding: 4rem 1rem;
 }
 
 .section3-left {
     width: 500px;
     text-align: center;
-    padding: 1rem;
     margin: auto;
     -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
     -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
@@ -41,8 +41,8 @@
 
 .section3-right {
     width: 600px;
+    height: auto;
     margin: auto;
-    padding: 1rem;
 }
 
 
@@ -81,7 +81,7 @@
     }
 
     .section3-left {
-        width: 80%;
+        width: 90%;
     }
 
     .section3-right {
@@ -92,8 +92,12 @@
         text-align: center; 
     }
 
-    .section3 hr {
-        display: none;
+    .section3-right h2 {
+        text-align: center; 
+    }
+
+    .section3-right p {
+        text-align: justify;
     }
 
     .shape3 {
