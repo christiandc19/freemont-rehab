@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
 
-import HeroImg from '../../assets/hero.png'
+import HeroImg from '../../assets/hero.webp'
 
 
 

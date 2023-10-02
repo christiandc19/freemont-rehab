@@ -1,7 +1,7 @@
 import React from "react";
 import "./Section3.css";
 
-import wrapper1 from "../../assets/section3-img1.jpg";
+import wrapper1 from "../../assets/section3-img1.webp";
 import Shape1 from "../../assets/shape1.png";
 
 const Section3 = () => {

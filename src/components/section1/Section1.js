@@ -1,7 +1,7 @@
 import React from 'react'
 import './Section1.css'
-import img1 from "../../assets/section1-img1.jpg";
-import img2 from "../../assets/section1-img2.jpg";
+import img1 from "../../assets/section1-img1.webp";
+import img2 from "../../assets/section1-img2.webp";
 
 import Shape1 from "../../assets/shape1.png";
 import Shape2 from "../../assets/shape2.png";

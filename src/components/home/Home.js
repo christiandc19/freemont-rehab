@@ -26,7 +26,6 @@ const home = () => {
     <InsuranceSection />
     <MissionHome />
     <ContactForm2 />
-
     </>
   )
 }
