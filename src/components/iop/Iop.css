@@ -40,23 +40,13 @@
 
 @media screen and (max-width:940px) {
 
-    .sa-iop h2 {
-        font-size: 1rem;
+    
+    .iop-content {
+        bottom: 10%;
     }
     
-    .sa-iop h1 {
+    .iop h1 {
         font-size: 2rem;
-    }
-    
-    .sa-iop .sa-iop-content {
-        display: block;
-        position: absolute;
-        top: 30%;
-        padding: 1rem;
-    }
-    
-    .sa-iop .sa-iop-content h1 {
-        font-size: 3rem;
     }
     
     }

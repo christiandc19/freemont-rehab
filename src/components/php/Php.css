@@ -45,7 +45,11 @@
 
     
     .php h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .php-content {
+        bottom: 10%;
     }
 
     
